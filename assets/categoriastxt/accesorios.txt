@@ -1,0 +1,90 @@
+<h1>PRODUCTOS-ACCESORIOS</h1>         
+                <div class="information">
+                    <div class="row g-3" id="row">
+                        <div class="col" id="imagenes">
+                            <img src="assets/img/taza_anime.jpg"class="card-img-top"/>
+                        </div>
+                        <div class="col" id="nombre-producto">
+                            <p class="nombre-produtos"> Taza</p>
+                            <p>Anime diciendo que el anime es vida</p>
+                        </div>
+                        <div class="col" id="precios">
+                            <p>21,49 US$</p>
+                        </div>
+                        <div class="col" id="buttom">
+                           <button><img src="assets/img/comprar.png" alt="agregar" onclick="agregar('assets/img/taza_anime.jpg','Taza','21,49 US$')" ></button> 
+                        </div>
+                    </div>
+                </div>
+                 <br>
+                 <div class="information">
+                    <div class="row g-3" id="row">
+                        <div class="col" id="imagenes">
+                            <img src="assets/img/alfonbrilla_raton.jpg"class="card-img-top"/>
+                        </div>
+                        <div class="col" id="nombre-producto">
+                            <p class="nombre-produtos">Alfombrilla de ratón-Demon Slayer</p>
+                            <p>Alfombra Rgb de Anime para teclado Led de velocidad</p>
+                        </div>
+                        <div class="col" id="precios">
+                            <p>31,49 US$</p>
+                        </div>
+                        <div class="col" id="buttom">
+                           <button><img src="assets/img/comprar.png" alt="agregar" onclick="agregar('assets/img/alfonbrilla_raton.jpg','Alfombrilla de ratón-Demon Slayer','31,49 US$')" ></button> 
+                        </div>
+                    </div>
+                </div>
+                  <br>
+                 <div class="information">
+                    <div class="row g-3" id="row">
+                        <div class="col" id="imagenes">
+                            <img src="assets/img/almohadas.jpg"class="card-img-top"/>
+                        </div>
+                        <div class="col" id="nombre-producto">
+                            <p class="nombre-produtos">Almohada de Felpa</p>
+                            <p>Almohada de peluche Perro Shiba color Marrón</p>
+                        </div>
+                        <div class="col" id="precios">
+                            <p>27,86 US$</p>
+                        </div>
+                        <div class="col" id="buttom">
+                           <button><img src="assets/img/comprar.png" alt="agregar" onclick="agregar('assets/img/almohadas.jpg','Almohada de Felpa','27,86 US$')" ></button> 
+                        </div>
+                    </div>
+                </div>
+                 <br>
+                 <div class="information">
+                    <div class="row g-3" id="row">
+                        <div class="col" id="imagenes">
+                            <img src="assets/img/case_anime.jpg"class="card-img-top"/>
+                        </div>
+                        <div class="col" id="nombre-producto">
+                            <p class="nombre-produtos">Funda de teléfono</p>
+                            <p>Girlfriend Chizuru Funda de teléfono para iPhone 11</p>
+                        </div>
+                        <div class="col" id="precios">
+                            <p>10,99 US$</p>
+                        </div>
+                        <div class="col" id="buttom">
+                           <button><img src="assets/img/comprar.png" alt="agregar" onclick="agregar('assets/img/case_anime.jpg','Funda de teléfono','10,99 US$')" ></button> 
+                        </div>
+                    </div>
+                </div>
+                <br>
+                 <div class="information">
+                    <div class="row g-3" id="row">
+                        <div class="col" id="imagenes">
+                            <img src="assets/img/collar.jpeg"class="card-img-top"/>
+                        </div>
+                        <div class="col" id="nombre-producto">
+                            <p class="nombre-produtos"> Collar</p>
+                            <p>Anime Naruto Collar Itachi Uchiha Sasuke Mangekyou Sharingan Colgante Cosplay Joyería</p>
+                        </div>
+                        <div class="col" id="precios">
+                            <p>5,99 US$</p>
+                        </div>
+                        <div class="col" id="buttom">
+                           <button><img src="assets/img/comprar.png" alt="agregar" onclick="agregar('assets/img/collar.jpeg','Collar','5,99 US$')" ></button> 
+                        </div>
+                    </div>
+                </div>

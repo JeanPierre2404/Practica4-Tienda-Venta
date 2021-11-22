@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amadeus-Line</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/estilos.css">
+   
+</head>
+<body>
+   <header class="header">
+       <div class="contenido">
+           <div class="logo"></div>
+           <h1>AMADEUS.LINE</h1>
+            
+           <nav class="menu">
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Ventas</a></li>
+                <li><a href="#">Categorias <i class="icon-abajo"></i></a>
+             <ul class="submenu">
+                 <li><a href="#">Todos</a></li>
+                 <li><a href="#">Figuras</a></li>
+                 <li><a href="#">Vestidos</a></li>
+             </ul></li>
+                <li><a href="#">Entretenimiento</a></li>
+            </ul>
+        </nav>
+       </div>
+      
+   </header>
+    <section id="pantalla-dividida">
+       <div class="izquierda">
+            <select class="form-select" id="opciones-categoria" > 
+                <option value="" selected >Seleccione</option>
+                <option value="1">Figuras</option>
+                <option value="2">Vestidos</option>
+                <option value="3">Accesorios</option>
+            </select>
+           
+            
+            <div id="cargar-contenido">
+                
+                
+            </div>
+                
+       </div> 
+
+       <div class="derecha">
+            
+            <div class="row g-3" id="row">
+                <div class="col">
+                    <p>Imagen</p>
+                </div>
+                <div class="col">
+                    <p>Nombre Producto</p>
+                </div>
+                <div class="col">
+                    <p>Costo</p>
+                </div>
+            </div>
+            <div id="aggcarrito">
+
+            </div>
+       </div>
+
+    </section>
+
+    <footer>
+        <!--<div class="waves">
+            <div class="wavee" id="wave1"></div>
+            <div class="wavee" id="wave2"></div>
+            <div class="wavee" id="wave3"></div>
+            <div class="wavee" id="wave4"></div>
+        </div>-->
+        <ul class="social_icon">
+            <li><a href="#"><ion-icon name="logo-facebook"></ion-icon></ion-icon></a></li>
+            <li><a href="#"><ion-icon name="logo-github"></ion-icon></a></li>
+            <li><a href="#"><ion-icon name="logo-instagram"></ion-icon></a></li>
+            <li><a href="#"><ion-icon name="logo-whatsapp"></ion-icon></a></li>
+        </ul>
+        <ul class="menus">
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Sobre</a></li>
+            <li><a href="#">Contato</a></li>
+            <li><a href="#">Servicio</a></li>
+            <li><a href="#">Equipo</a></li>
+        </ul>
+        <p>&copy;2021 Group Amadeus | Todos los derechos reservados</p>
+    </footer>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+<script type="text/javascript" src="assets/js/scritps.js"></script>
+</html>

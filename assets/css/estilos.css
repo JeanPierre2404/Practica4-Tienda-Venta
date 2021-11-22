@@ -1,0 +1,252 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+    /*PARA QUE EL FOOTER QUEDE ABAJO*/
+    display: grid;
+    min-height: 100vh;
+    grid-template-rows: auto 1fr auto;
+}
+
+.izquierda{
+    /*background: #D9E9FF;*/
+    background: linear-gradient( 
+        91deg
+         , #82f9eead, #fba6e17d);
+    width: 50%;
+}
+
+.derecha{
+    /*background: #D9E9FF;*/
+    background: linear-gradient( 
+        270deg
+         , #82f9eead, #fba6e17d);
+    width: 50%;
+    
+}
+/*Divicion de la pantalla*/
+#pantalla-dividida{
+    display: flex;
+    background: 100vw 100vh;
+    padding-top: 8rem;
+    padding-bottom: 0.5rem;
+}
+
+.header{
+    width: 100%;
+    height: 125px;
+    position: fixed;
+    background: rgb(241, 252, 255);
+    box-shadow: 1px 1px 5px #000;
+    top: 0;
+    left: 0;
+    
+}
+
+.contenido{
+   max-width: 1100px;
+   margin: auto; 
+}
+
+.logo{
+    float: left;
+    line-height: 85px;
+}
+
+.menu{
+    float: right;
+    line-height: 65px;
+}
+
+.menu ul{
+    display: flex;
+    list-style: none;
+
+}
+
+.menu a{
+    display: block;
+    padding: 0px 20px;
+    text-decoration: none;
+    color: #6d6d66;
+    transition: all 500ms ease;
+}
+
+.menu a:hover{
+    background: #cc673b;
+    color: #fff;
+}
+
+.menu .submenu{
+    background: #fff;
+    box-shadow: 3px 10px 10px rgb(0, 0, 0, 2);
+    display: none;
+}
+
+.menu .submenu li a{
+    line-height: 50px;
+}
+
+.menu ul li a:hover + ul, .menu .submenu:hover{
+    display: block;
+}
+
+.information,#information{
+    /*display: flex;*/
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 3px 10px;
+  border: #0d5b72 5px solid;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+
+ 
+}
+
+#imagenes img{
+    width: 200px;
+    left: 200px;
+    margin-left: 10px;
+}
+
+#buttom{
+    margin-right: 10px;
+}
+#buttom img{
+    width: 35px;
+    left: 35px;
+}
+
+#row{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+}
+
+#tamañitos1{
+    width: 80px;
+}
+/*decoracion del footer*/
+footer{
+    background: #313131;
+    padding: 20px 50px;
+    width: 100%;
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer .social_icon, footer .menus{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;  
+    flex-wrap: wrap;
+}
+
+footer .social_icon li, footer .menus li{
+    list-style: none;
+}
+footer .social_icon li a{
+    font-size: 2rem;
+    color: #fff;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+}
+footer .social_icon li a:hover{
+    transform: translateY(-10px);
+}
+
+footer .menus li a{
+    font-size: 1.2rem;
+    color: #fff;
+    margin: 0 10px;
+    display: inline-block;
+    text-decoration: none;
+    opacity: 0.75;
+}
+footer .menus li a:hover{
+    opacity: 1;
+}
+/*Decoracion al texto de la parte <p>*/
+footer p{
+    color: #fff;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom:  10px;
+    font-size: 1.1em;
+}
+
+/*animacion del footer
+footer .wavee{
+    position: absolute;
+    top: -100px;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background: url(assets\img\wave.png);
+    background-size: 1000px 100px;
+}
+footer .wavee#wave1{
+    z-index: 1000;
+    opacity: 1;
+    bottom: 0;
+    animation: animatewave 4s linear infinite;
+
+}
+footer .wavee#wave2{
+    z-index: 999;
+    opacity: 0.5;
+    bottom: 10px;
+    animation: animatewave_02 4s linear infinite;
+
+}
+
+footer .wavee#wave3{
+    z-index: 1000;
+    opacity: 0.2;
+    bottom: 15px;
+    animation: animatewave 3s linear infinite;
+
+}
+footer .wavee#wave4{
+    z-index: 999;
+    opacity: 0.7;
+    bottom: 20px;
+    animation: animatewave_02 3s linear infinite;
+
+}
+@keyframes animatewave {
+    0%
+    {
+        background-position-x: 1000px;
+    }
+    100%
+    {
+        background-position-x: 0px;
+    }
+}
+
+@keyframes animatewave_02 {
+    0%
+    {
+        background-position-x: 0px;
+    }
+    100%
+    {
+        background-position-x: 1000px;
+    }
+}*/

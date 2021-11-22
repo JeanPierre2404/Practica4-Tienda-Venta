@@ -1,0 +1,91 @@
+<h1>PRODUCTOS-VESTIDOS</h1>
+                
+                <div class="information">
+                    <div class="row g-3" id="row">
+                        <div class="col" id="imagenes">
+                            <img src="assets/img/minato_vestido.jpg"class="card-img-top"/>
+                        </div>
+                        <div class="col" id="nombre-producto">
+                            <p class="nombre-produtos">Minato Cosplay Naruto</p>
+                            <p>Disfraz de cuarto Hokage Namikaze</p>
+                        </div>
+                        <div class="col" id="precios">
+                            <p>80,00 US$</p>
+                        </div>
+                        <div class="col" id="buttom">
+                           <button><img src="assets/img/comprar.png" alt="agregar" onclick="agregar('assets/img/minato_vestido.jpg','Minato Vestimenta','80,00 US$')"></button> 
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="information">
+                    <div class="row g-3" id="row">
+                        <div class="col" id="imagenes">
+                            <img src="assets/img/violet.jpg"class="card-img-top"/>
+                        </div>
+                        <div class="col" id="nombre-producto">
+                            <p class="nombre-produtos">Violet Evergarden</p>
+                            <p> Disfraz de cosplay para mujer, uniforme de anime, color azul oscuro</p>
+                        </div>
+                        <div class="col" id="precios">
+                            <p>76,69 US$</p>
+                        </div>
+                        <div class="col" id="buttom">
+                           <button><img src="assets/img/comprar.png" alt="agregar" onclick="agregar('assets/img/violet.jpg','Violet Evergarden','76,69 US$')"></button> 
+                        </div>
+                    </div>
+                </div>
+                 <br>
+                <div class="information">
+                    <div class="row g-3" id="row">
+                        <div class="col" id="imagenes">
+                            <img src="assets/img/kizaru_vestido.jpg"class="card-img-top"/>
+                        </div>
+                        <div class="col" id="nombre-producto">
+                            <p class="nombre-produtos">Sakazuki Kizaru Borsalino</p>
+                            <p>Una pieza de cosplay Admiral Sakazuki Kizaru Borsalino Traje de la raya amarilla Traje</p>
+                        </div>
+                        <div class="col" id="precios">
+                            <p>86,00 US$</p>
+                        </div>
+                        <div class="col" id="buttom">
+                           <button><img src="assets/img/comprar.png" alt="agregar" onclick="agregar('assets/img/kizaru_vestido.jpg','Sakazuki Kizaru Borsalino','86,00 US$')" ></button> 
+                        </div>
+                    </div>
+                </div>
+                    <br>
+                <div class="information">
+                    <div class="row g-3" id="row">
+                        <div class="col" id="imagenes">
+                            <img src="assets/img/kawaii.jpg"class="card-img-top"/>
+                        </div>
+                        <div class="col" id="nombre-producto">
+                            <p class="nombre-produtos">Kawaii Sad Schoolgirl</p>
+                            <p>Camiseta de niña anime Kawaii Sad Schoolgirl Otaku</p>
+                        </div>
+                        <div class="col" id="precios">
+                            <p>10,00 US$</p>
+                        </div>
+                        <div class="col" id="buttom">
+                           <button><img src="assets/img/comprar.png" alt="agregar" onclick="agregar('assets/img/kawaii.jpg','Kawaii Sad Schoolgirl','10,00 US$')"  ></button> 
+                        </div>
+                    </div>
+                </div>
+                   <br>
+                <div class="information">
+                    <div class="row g-3" id="row">
+                        <div class="col" id="imagenes">
+                            <img src="assets/img/anime-naruto-akatsuki-cosplay-costume-akatsuki.jpg"class="card-img-top"/>
+                        </div>
+                        <div class="col" id="nombre-producto">
+                            <p class="nombre-produtos">Akatsuki</p>
+                            <p>Capa larga unisex Ninja Itachi para disfraz de Halloween, disfraz de cosplay</p>
+                        </div>
+                        <div class="col" id="precios">
+                            <p>89,99 US$</p>
+                        </div>
+                        <div class="col" id="buttom">
+                           <button><img src="assets/img/comprar.png" alt="agregar" onclick="agregar('assets/img/anime-naruto-akatsuki-cosplay-costume-akatsuki.jpg','Akatsuki','89,99 US$')" ></button> 
+                        </div>
+                    </div>
+                </div>

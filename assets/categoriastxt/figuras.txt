@@ -1,0 +1,90 @@
+<h1>PRODUCTOS-FIGURAS</h1>
+                <div class="information">
+                    <div class="row g-3" id="row">
+                        <div class="col" id="imagenes">
+                            <img src="assets/img/zero-two.png"class="card-img-top"/>
+                        </div>
+                        <div class="col" id="nombre-producto">
+                            <p class="nombre-produtos">Zero Two</p>
+                            <p>Figura de DARLING in the FRANXX</p>
+                        </div>
+                        <div class="col" id="precios">
+                            <p>40.00 US$</p>
+                        </div>
+                        <div class="col" id="buttom">
+                           <button><img src="assets/img/comprar.png" alt="agregar" onclick="agregar('assets/img/zero-two.png','Zero Two','40.00 US$')"></button> 
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="information">
+                    <div class="row g-3" id="row">
+                        <div class="col" id="imagenes">
+                            <img src="assets/img/Figura-Nendoroid-Nino-Nakano-02.jpg"class="card-img-top"/>
+                        </div>
+                        <div class="col" id="nombre-producto">
+                            <p class="nombre-produtos">Nino Nakano</p>
+                            <p>The Quintessential Quintuplets</p>
+                        </div>
+                        <div class="col" id="precios">
+                            <p>61.00 US$</p>
+                        </div>
+                        <div class="col" id="buttom">
+                           <button><img src="assets/img/comprar.png" alt="agregar" onclick="agregar('assets/img/Figura-Nendoroid-Nino-Nakano-02.jpg','Nino Nakano','61.00 US$')"></button> 
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="information">
+                    <div class="row g-3" id="row">
+                        <div class="col" id="imagenes">
+                            <img src="assets/img/chika.jpeg"class="card-img-top"/>
+                        </div>
+                        <div class="col" id="nombre-producto">
+                            <p class="nombre-produtos"> Chika Fujiwara</p>
+                            <p>Kaguya-sama: Love Is War Chika Fujiwara Chibi</p>
+                        </div>
+                        <div class="col" id="precios">
+                            <p>74.00 US$</p>
+                        </div>
+                        <div class="col" id="buttom">
+                           <button><img src="assets/img/comprar.png" alt="agregar" onclick="agregar('assets/img/chika.jpeg','Chika Fujiwara','74.00 US$')" ></button> 
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="information">
+                    <div class="row g-3" id="row">
+                        <div class="col" id="imagenes">
+                            <img src="assets/img/sanji.jpg"class="card-img-top"/>
+                        </div>
+                        <div class="col" id="nombre-producto">
+                            <p class="nombre-produtos">Vinsmoke Sanji</p>
+                            <p>Figura de acción de One Piece, modelo coleccionable</p>
+                        </div>
+                        <div class="col" id="precios">
+                            <p>45,50 US$</p>
+                        </div>
+                        <div class="col" id="buttom">
+                           <button><img src="assets/img/comprar.png" alt="agregar" onclick="agregar('assets/img/sanji.jpg','Vinsmoke Sanji','45,50 US$')" ></button> 
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="information">
+                    <div class="row g-3" id="row">
+                        <div class="col" id="imagenes">
+                            <img src="assets/img/makise.jpg"class="card-img-top"/>
+                        </div>
+                        <div class="col" id="nombre-producto">
+                            <p class="nombre-produtos">Kurisu Makise</p>
+                            <p>Presentando una figura a escala 1/7 de Kurisu Makise de STEINS;GATE</p>
+                        </div>
+                        <div class="col" id="precios">
+                            <p>52,60 US$</p>
+                        </div>
+                        <div class="col" id="buttom">
+                           <button><img src="assets/img/comprar.png" alt="agregar" onclick="agregar('assets/img/makise.jpg','Kurisu Makise','52,60 US')" ></button> 
+                        </div>
+                    </div>
+                </div>
