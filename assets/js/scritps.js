@@ -17,7 +17,7 @@ function mostrandocontenidolistas() {
         else if(xhttp.status="400"){
           alert('(HTTP) 400 Bad Request');
         }else{
-          alert('Error 200');
+          alert('HTTP 200 OK');
         }
       }
     }
