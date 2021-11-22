@@ -15,7 +15,7 @@ function mostrandocontenidolistas() {
           document.getElementById("cargar-contenido").innerHTML = xhttp.responseText;
         }
         else if(xhttp.status="400"){
-          alert('Hubo un error al 400');
+          alert('(HTTP) 400 Bad Request');
         }else{
           alert('Error 200');
         }
